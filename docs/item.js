@@ -28,7 +28,7 @@ const btn = document.getElementById("addToCart");
 btn.dataset.itemId = `${name}-${theme}`;
 btn.dataset.itemName = name;
 btn.dataset.itemPrice = price;
-btn.dataset.itemUrl = window.location.href;
+btn.dataset.itemUrl = https://soulixion.github.io/clay_hand_art_snipcart/;
 btn.dataset.itemImage = image;
 btn.dataset.itemDescription = theme;
 
@@ -37,3 +37,4 @@ const qtyInput = document.getElementById("quantity");
 qtyInput.addEventListener("change", () => {
   btn.dataset.itemQuantity = qtyInput.value;
 });
+
